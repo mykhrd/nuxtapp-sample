@@ -13,7 +13,7 @@
     </section>
   </div>
 </template>
-<style>
+<style scoped>
 .post {
   max-width: 95%;
   padding: 20px;
