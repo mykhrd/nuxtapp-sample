@@ -1,6 +1,3 @@
-<!-- 
-dynamic path
--->
 <template>
     <div>
         <h1>sample single user details</h1>
