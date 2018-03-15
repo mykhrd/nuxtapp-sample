@@ -1,5 +1,8 @@
 <template>
   <div>
+      <header>
+          <h1>users page</h1>
+    </header>
     <Header/>
     <nuxt/>
   </div>
