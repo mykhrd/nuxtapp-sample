@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt/>
+      <h1>error</h1>
   </div>
 </template>
 
