@@ -1,7 +1,26 @@
 <!-- 
-In nuxt, you can generate routes just by creating file
-The folder driven approach is recommended
+navigate programatically
 -->
 <template>
-  <h1>users sample</h1>
+    <div>
+        <!-- <h1>sample single user</h1>
+        <p>user ID: {{ $route.params.id }}</p> 
+        -->
+        <input type="text" v-model="userId">
+        <button @click="onLoadUser">get user</button>
+    </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      userId: ""
+    }
+  },
+  methods: {
+    onLoadUser() {
+      this.$router.push("/users/" + this.userId)
+    }
+  }
+}
+</script>
