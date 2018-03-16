@@ -7,19 +7,19 @@
     <section>
       <PostPreview 
         id="1"
-        thumbnail="https://images.pexels.com/photos/34600/pexels-photo.jpg"
+        thumbnail="//images.pexels.com/photos/34600/pexels-photo.jpg"
         title="hello there!"
         previewText="First post!"
         />
       <PostPreview 
         id="1"
-        thumbnail="https://images.pexels.com/photos/270366/pexels-photo-270366.jpeg"
+        thumbnail="//images.pexels.com/photos/270366/pexels-photo-270366.jpeg"
         title="hello there!"
         previewText="second post!"
         />
       <PostPreview 
         id="1"
-        thumbnail="https://images.pexels.com/photos/34600/pexels-photo.jpg"
+        thumbnail="//images.pexels.com/photos/34600/pexels-photo.jpg"
         title="hello there!"
         previewText="third post!"
         />
